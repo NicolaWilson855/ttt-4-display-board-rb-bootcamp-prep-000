@@ -1,6 +1,6 @@
 def display_board(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  board[4] = "X"
+  row_1 = [" ", "X", " "]
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
